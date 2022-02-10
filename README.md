@@ -31,9 +31,9 @@ On PowerShell:
 > flask run
 ```
 
-It should work on local address: http://127.0.0.1:5000/
-
-### Expected Results:
+### Results:
 
 ![alt text](https://github.com/andrevargas22/Digit_Recognizer_Webapp/blob/main/static/digit1.PNG)
 ![alt text](https://github.com/andrevargas22/Digit_Recognizer_Webapp/blob/main/static/digit2.PNG)
+
+This app is also currently available here: http://andrevargas22.pythonanywhere.com/digit_recognizer
