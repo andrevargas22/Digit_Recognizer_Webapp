@@ -1,0 +1,325 @@
+/* Body page style */ 
+body {
+    background-color: black;
+}
+
+/* Paragraph style */ 
+p {
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+/* Media breakpoints */ 
+/* 1200px or more */ 
+@media only screen and (min-width: 1200px) {
+
+    canvas {
+        background: white;
+        position: absolute;
+        top: 250px;
+        left: 60px;
+    }
+
+    .bt1 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 480px;
+        left: 60px;
+    }
+
+    .bt2 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 480px;
+        left: 150px;
+    }
+
+    .description {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 100px;
+        left: 60px;
+        right: 60px;
+    }
+
+    .digitimg {
+        width:200px;
+        height:200px;
+        position: absolute;
+        top: 250px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    .digit_res {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 250px;
+        left: 300px;
+        right: 60px;
+    }
+
+    .digitbtn{
+        position: absolute;
+        top: 460px;
+        left: 60px;
+        right: 60px;
+    }
+
+}
+
+/* 992px to 1200px */ 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    canvas {
+        background: white;
+        position: absolute;
+        top: 290px;
+        left: 60px;
+    }
+
+    .bt1 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 60px;
+    }
+
+    .bt2 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 150px;
+    }
+
+    .description{
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 100px;
+        left: 60px;
+        right: 60px;
+        z-index: -1;
+    }
+
+    .digitimg {
+        width:200px;
+        height:200px;
+        position: absolute;
+        top: 290px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    .digit_res {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 290px;
+        left: 300px;
+        right: 60px;
+    }
+
+    .digitbtn{
+        position: absolute;
+        top: 505px;
+        left: 60px;
+        right: 60px;
+    }
+
+}
+
+
+/* 768px to 992px */ 
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    canvas {
+        background: white;
+        position: absolute;
+        top: 290px;
+        left: 40px;
+    }
+
+    .bt1 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 40px;
+    }
+
+    .bt2 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 130px;
+    }
+
+    .description{
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        right: 40px;
+        z-index: -1;
+    }
+
+    .digitimg {
+        width:200px;
+        height:200px;
+        position: absolute;
+        top: 290px;
+        left: 40px;
+        z-index: -1;
+    }
+
+    .digit_res {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 290px;
+        left: 300px;
+        right: 60px;
+    }
+
+    .digitbtn{
+        position: absolute;
+        top: 505px;
+        left: 40px;
+        right: 60px;
+    }
+}
+
+/* 481px to 768px */ 
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+    canvas {
+        background: white;
+        position: absolute;
+        top: 280px;
+        left: 30px;
+    }
+
+    .bt1 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 30px;
+    }
+
+    .bt2 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 510px;
+        left: 120px;
+    }
+
+    .description {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        right: 30px;
+        z-index: -1;
+    }
+
+    .digitimg {
+        width:200px;
+        height:200px;
+        position: absolute;
+        top: 280px;
+        left: 30px;
+        z-index: -1;
+    }
+
+    .digit_res {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 280px;
+        left: 250px;
+        right: 30px;
+    }
+
+    .digitbtn{
+        position: absolute;
+        top: 505px;
+        left: 30px;
+        right: 30px;
+    }
+}
+
+/* 320px to 481px */ 
+@media only screen and (min-width: 320px) and (max-width: 481px){
+
+    canvas {
+        background: white;
+        position: absolute;
+        top: 280px;
+        left: 60px;
+    }
+
+    .bt1 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 495px;
+        left: 60px;
+    }
+
+    .bt2 {
+        padding: 14px 22px;
+        position: absolute;
+        top: 495px;
+        left: 150px;
+    }
+
+    .description {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 13px;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        right: 15px;
+        z-index: -1;
+    }
+
+    .digitimg {
+        width:200px;
+        height:200px;
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    .digit_res {
+        font-family: 'Hind Siliguri', sans-serif;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 530px;
+        left: 60px;
+        right: 60px;
+    }
+
+    .digitbtn{
+        position: absolute;
+        top: 490px;
+        left: 60px;
+        right: 60px;
+    }
+
+}

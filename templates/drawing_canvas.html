@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS file -->
+        <link rel="stylesheet" href="static/css/drawingcanvas.css">
+
+        <!-- Page Title -->
+        <title>Digit Recognition Web App</title>
+
+    </head>
+
+    <body>
+
+        <!-- Page Description -->
+        <div class='description'>
+
+            <p>
+                This is a web app for handwritten digit recognition using a convolutional neural network.
+                The model was trained on the MNIST dataset in TensorFlow using the Keras API.
+            </p>
+
+            <p>
+                Click to draw a number from 0 to 9 on the white canvas below and click hit Predict to see the model's prediction of the drawing.
+                Click Clear to restart the canvas.
+            </p>
+
+        </div>
+        
+        <!-- Drawing Canvas -->
+        <canvas id='canvas' width='200' height='200'></canvas><br>
+
+        <!-- Interactive Buttons -->
+        <button class="bt1" onclick="clean()">Clear</button>
+        <button class="bt2" onclick="surprise()">Predict!</button>
+        
+        <!-- Javascript File -->
+        <script type="text/javascript" src="static/js/digitrecog.js"></script>
+
+        <!-- Jquery File -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    </body>
+
+    </html>
