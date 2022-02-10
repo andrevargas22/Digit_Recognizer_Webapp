@@ -4,6 +4,6 @@ This repository contains a small web app that runs a MNIST trained model for han
 
 ### Install Requirements:
 
-''' 
+```
 > pip install requirements.txt
-'''
+```
