@@ -25,6 +25,10 @@ On PowerShell:
 ```
 > $env:FLASK_APP="web_app.py"
 ```
+On Linux:
+```
+> export FLASK_APP=web_app
+``` 
 
 ### Step 5 - Run server
 ```
